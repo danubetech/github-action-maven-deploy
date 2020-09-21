@@ -2,13 +2,13 @@
     <servers>
         <server>
             <id>danubetech-maven-snapshots</id>
-            <username>{{maven-username}}</username>
-            <password>{{maven-password}}</password>
+            <username>{{MAVEN_USERNAME}}</username>
+            <password>{{MAVEN_PASSWORD}}</password>
         </server>
         <server>
             <id>danubetech-maven-releases</id>
-            <username>{{maven-username}}</username>
-            <password>{{maven-password}}</password>
+            <username>{{MAVEN_USERNAME}}</username>
+            <password>{{MAVEN_PASSWORD}}</password>
         </server>
     </servers>
 </settings>

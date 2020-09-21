@@ -4,9 +4,9 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
 inputs:
-  maven-username:
+  MAVEN_USERNAME:
     description: Username for maven repo
     required: true
-  maven-password:
+  MAVEN_PASSWORD:
     description: Password for maven repo
     required: true
