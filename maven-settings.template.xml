@@ -1,0 +1,14 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>danubetech-maven-snapshots</id>
+            <username>{{maven-username}}</username>
+            <password>{{maven-password}}</password>
+        </server>
+        <server>
+            <id>danubetech-maven-releases</id>
+            <username>{{maven-username}}</username>
+            <password>{{maven-password}}</password>
+        </server>
+    </servers>
+</settings>

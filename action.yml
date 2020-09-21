@@ -1,0 +1,12 @@
+name: maven-deploy
+description: Run maven deploy lifecycle step
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs:
+  maven-username:
+    description: Username for maven repo
+    required: true
+  maven-password:
+    description: Password for maven repo
+    required: true
