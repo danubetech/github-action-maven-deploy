@@ -3,10 +3,3 @@ description: Run maven deploy lifecycle step
 runs:
   using: 'docker'
   image: 'Dockerfile'
-inputs:
-  MAVEN_USERNAME:
-    description: Username for maven repo
-    required: true
-  MAVEN_PASSWORD:
-    description: Password for maven repo
-    required: true
