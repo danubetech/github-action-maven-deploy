@@ -5,10 +5,5 @@
             <username>$MAVEN_USERNAME</username>
             <password>$MAVEN_PASSWORD</password>
         </server>
-        <server>
-            <id>danubetech-maven-releases</id>
-            <username>$MAVEN_USERNAME</username>
-            <password>$MAVEN_PASSWORD</password>
-        </server>
     </servers>
 </settings>
