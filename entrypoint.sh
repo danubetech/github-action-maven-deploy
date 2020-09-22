@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 
-echo "Entrypoint started"
-echo "$INPUT_MAVEN_USERNAME"
-echo "$INPUT_MAVEN_PASSWORD"
+envsubst < /maven-settings.template.xml > /maven-settings.xml
+mvn deploy --settings /maven-settings.xml
