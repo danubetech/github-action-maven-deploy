@@ -3,3 +3,9 @@ description: Run maven deploy lifecycle step
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ inputs.SERVER_ID }}
+inputs:
+  SERVER_ID:
+    description: Maven server id
+    required: true
