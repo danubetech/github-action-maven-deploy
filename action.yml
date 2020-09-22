@@ -4,8 +4,8 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.SERVER_ID }}
+    - ${{ inputs.server_id }}
 inputs:
-  SERVER_ID:
+  server_id:
     description: Maven server id
     required: true
