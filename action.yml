@@ -13,4 +13,4 @@ inputs:
   path_to_pom:
     description: Folder where pom.xml is located
     required: false
-    default: /
+    default: /github/workspace
