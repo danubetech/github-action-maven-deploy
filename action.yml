@@ -5,7 +5,12 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.server_id }}
+    - ${{ inputs.path_to_pom }}
 inputs:
   server_id:
     description: Maven server id
     required: true
+  path_to_pom:
+    description: Folder where pom.xml is located
+    required: false
+    default: /
