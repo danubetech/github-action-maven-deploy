@@ -1,4 +1,4 @@
-FROM maven:3.6.3-adoptopenjdk-8
+FROM maven:3.6.3-adoptopenjdk
 
 RUN apt-get update && \
     apt-get upgrade -y && \
