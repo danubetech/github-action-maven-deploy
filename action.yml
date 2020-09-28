@@ -9,7 +9,7 @@ runs:
 inputs:
   server_id:
     description: Maven server id
-    required: true
+    required: false
   path_to_pom:
     description: Folder where pom.xml is located
     required: false

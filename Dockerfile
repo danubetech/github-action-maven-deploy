@@ -6,7 +6,7 @@ RUN apt-get update && \
 
 WORKDIR /app/
 
-COPY maven-settings.template.xml /
+COPY settings.template.xml /
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
