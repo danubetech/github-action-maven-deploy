@@ -4,8 +4,6 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y gettext-base
 
-WORKDIR /app/
-
 COPY settings.template.xml /
 
 COPY entrypoint.sh /entrypoint.sh
