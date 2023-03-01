@@ -1,4 +1,4 @@
-FROM maven:3.6.3-adoptopenjdk
+FROM maven:3-eclipse-temurin-17-focal
 
 RUN apt-get update && \
     apt-get upgrade -y && \
