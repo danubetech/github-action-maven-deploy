@@ -1,4 +1,4 @@
-FROM maven:3-eclipse-temurin-17-focal
+FROM maven:3-eclipse-temurin-21
 
 RUN apt-get update && \
     apt-get upgrade -y && \
