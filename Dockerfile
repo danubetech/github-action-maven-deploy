@@ -2,7 +2,7 @@ FROM maven:3-eclipse-temurin-21
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y gettext-base
+    apt-get install -y gettext-base patch
 
 COPY settings.template.xml /
 
